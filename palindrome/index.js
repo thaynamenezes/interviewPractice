@@ -22,11 +22,11 @@ function palindrome(str) {
         return false;
     }
 
-    // Solution 2
+    // SOLUTION 2
     // const reversed = str.split('').reverse().join('');
     // return str === reversed;
 
-    //Solution 3
+    // SOLUTION 3
     // return str.split('').every((char, i) => {
     //     return char === str[str.length - i - 1];
     // });
